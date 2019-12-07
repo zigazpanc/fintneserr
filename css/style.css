@@ -1,15 +1,3 @@
-/* =================================
-------------------------------------
-  X Gym - Fitness HTML Template
-  Version: 1.0
- ------------------------------------
- ====================================*/
-
- 
-/*----------------------------------------*/
-/* Template default CSS
-/*----------------------------------------*/
-
 html,
 body {
 	height: 100%;
@@ -25,7 +13,7 @@ h4,
 h5,
 h6 {
 	margin: 0;
-	color: #353535;
+	-lgor: #353535;
 	font-weight: 700;
 	line-height: 1;
 }
@@ -83,10 +71,6 @@ ol {
 	margin: 0;
 }
 
-/*---------------------
-Helper CSS
- -----------------------*/
-
 .section-title {
 	margin-bottom: 60px;
 }
@@ -134,9 +118,7 @@ Helper CSS
 	color: #fff;
 }
 
-/*---------------------
-Commom elements
- -----------------------*/
+
 
 .elements-section {
 	padding: 121px 0 80px;
@@ -154,7 +136,7 @@ Commom elements
 	margin-bottom: 75px;
 }
 
-/* buttons */
+
 
 .site-btn {
 	display: inline-block;
@@ -194,7 +176,7 @@ Commom elements
 	color: #242424;
 }
 
-/* Preloder */
+
 
 #preloder {
 	position: fixed;
@@ -258,7 +240,7 @@ Commom elements
 	}
 }
 
-/* Accordion */
+
 
 .accordion-area .panel {
 	margin-bottom: 18px;
@@ -321,7 +303,7 @@ Commom elements
 	padding-top: 24px;
 }
 
-/* tab */
+
 
 .tab-element .nav-tabs {
 	border-bottom: none;
@@ -393,7 +375,6 @@ Commom elements
 	line-height: normal;
 }
 
-/* Icon Box*/
 
 .icon-box-item {
 	text-align: center;
@@ -404,7 +385,8 @@ Commom elements
 	width: 88px;
 	height: 88px;
 	border-radius: 50%;
-	color: #000000;
+	border: 5px solid black;
+	color:   #505050;
 	font-size: 60px;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -415,7 +397,7 @@ Commom elements
 	-webkit-box-pack: center;
 	-ms-flex-pack: center;
 	justify-content: center;
-	background: #f6f9fa;
+	background: #fcff18;
 	margin: 0 auto 25px;
 	-webkit-transition: 0.4s;
 	transition: 0.4s;
@@ -430,16 +412,14 @@ Commom elements
 }
 
 .icon-box-item:hover .ib-icon {
-	background: #fcff18;
+	color:   #fcff18;
+	background: #000000;
 }
 
-/*------------------
-Header section
- ---------------------*/
 
 .site-logo {
 	display: inline-block;
-	padding: 15px 35px;
+	padding: 10px 35px;
 }
 
 .main-menu {
@@ -474,7 +454,7 @@ Header section
 
 .header-right .hr-box {
 	width: 294px;
-	padding: 31px 52px;
+	padding: 45px 52px;
 	background: #fcff18;
 }
 
@@ -605,6 +585,7 @@ Trainers section
 
 .trainers-section {
 	padding: 121px 0 75px;
+	
 }
 
 .trainers-section .section-title {
@@ -637,27 +618,22 @@ Trainers section
 	margin-bottom: 0;
 }
 
-/* ----------------
-BMI section
- ---------------------*/
+
 
 .bmi-section {
 	background: #f6f9fa;
-	position: relative;
+	padding-right: 25%;
+	width: 100%;
+	text-align: center;
 }
 
-.bmi-bg {
-	position: absolute;
-	height: 100%;
-	width: 40.5%;
-	left: 0;
-	top: 0;
-}
+
 
 .bmi-calculator-warp {
 	background: #242424;
 	padding: 48px 53px 40px;
 	margin-top: 70px;
+	
 }
 
 .bmi-calculator input {
