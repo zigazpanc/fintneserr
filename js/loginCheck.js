@@ -7,7 +7,7 @@ function login(){
        var delayInMilliseconds = 500; // delay 0,5 sekunde
        setTimeout(function() {
        localStorage.setItem("username", username);
-       window.location = "namizje.html";
+       window.location = "index.html";
     }, delayInMilliseconds);
  
     }
