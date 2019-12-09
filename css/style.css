@@ -487,6 +487,10 @@ Hero section
 	-ms-flex-pack: center;
 	justify-content: center;
 	text-align: center;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .hero-text {
@@ -689,6 +693,10 @@ Footer section
 .footer-section {
 	padding-top: 106px;
 	padding-bottom: 23px;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .footer-widget {
@@ -764,9 +772,13 @@ Other Pages
 -----------------*/
 
 .page-top-section {
-	height: 272px;
+	height: 350px;
 	text-align: center;
 	padding-top: 95px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .page-top-section h2 {
@@ -881,6 +893,10 @@ Classes Page
 
 .pricing-section {
 	padding: 121px 0 91px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .pricing-section .section-title {
@@ -896,6 +912,7 @@ Classes Page
 	margin-bottom: 30px;
 	-webkit-transition: all 0.4s;
 	transition: all 0.4s;
+	background: black;
 }
 
 .pricing-box h2 {
